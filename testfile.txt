@@ -1,0 +1,85 @@
+Last login: Sat Aug 20 18:52:34 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MACBOOKs-MacBook-Pro:~ macbook$ cd ..
+MACBOOKs-MacBook-Pro:Users macbook$ pwd
+/Users
+MACBOOKs-MacBook-Pro:Users macbook$ cd desktop/
+-bash: cd: desktop/: No such file or directory
+MACBOOKs-MacBook-Pro:Users macbook$ cd desktop
+-bash: cd: desktop: No such file or directory
+MACBOOKs-MacBook-Pro:Users macbook$ ls
+Shared	macbook
+MACBOOKs-MacBook-Pro:Users macbook$ cd macbook
+MACBOOKs-MacBook-Pro:~ macbook$ ls
+CoreBrightness-backup	Movies			javasript
+Desktop			Music			node_modules
+Documents		Pictures		package-lock.json
+Downloads		Public			package.json
+Library			git_class
+MACBOOKs-MacBook-Pro:~ macbook$ git clone -b main https://github.com/Deejoft/DevOps-P.git
+Cloning into 'DevOps-P'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+MACBOOKs-MacBook-Pro:~ macbook$ ls
+CoreBrightness-backup	Library			git_class
+Desktop			Movies			javasript
+DevOps-P		Music			node_modules
+Documents		Pictures		package-lock.json
+Downloads		Public			package.json
+MACBOOKs-MacBook-Pro:~ macbook$ ll
+-bash: ll: command not found
+MACBOOKs-MacBook-Pro:~ macbook$ cd DevOps-P
+MACBOOKs-MacBook-Pro:DevOps-P macbook$ ls
+README.md
+MACBOOKs-MacBook-Pro:DevOps-P macbook$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+MACBOOKs-MacBook-Pro:DevOps-P macbook$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Deejoft/DevOps-P
+   8530892..cc8dc6d  main       -> origin/main
+Updating 8530892..cc8dc6d
+Fast-forward
+ index.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 index.html
+MACBOOKs-MacBook-Pro:DevOps-P macbook$ ls
+README.md	index.html
+MACBOOKs-MacBook-Pro:DevOps-P macbook$ vi testfile.txt
+
+
+thank you for trusting the brand
+
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
